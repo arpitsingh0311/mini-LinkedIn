@@ -1,4 +1,4 @@
-#CommunityHub - A Mini LinkedIn-like Platform
+# CommunityHub - A Mini LinkedIn-like Platform
 A full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js) that functions as a simple professional community platform. Users can create accounts, upload profile pictures, make text and image-based posts, and view a public feed of all community activity.
 
 ## Live Demo
@@ -29,30 +29,30 @@ Live Site URL: Your-Vercel-App-URL.vercel.app (Replace this with your actual Ver
 
 -Frontend on Vercel
 
-## Local Setup and Installation
+# Local Setup and Installation
 To run this project on your local machine, follow these steps:
 
-### Prerequisites:
+## Prerequisites:
 
-Node.js and npm
+-Node.js and npm
 
-Git
+-Git
 
-MongoDB Atlas account
+-MongoDB Atlas account
 
-Cloudinary account
+-Cloudinary account
 
-1. Clone the repository:
+### 1. Clone the repository:
 
 git clone [https://github.com/your-username/your-repository-name.git](https://github.com/your-username/your-repository-name.git)
 cd your-repository-name
 
-2. Setup Backend:
+### 2. Setup Backend:
 
 cd backend
 npm install
 
-Create a .env file in the backend directory and add the following variables with your own credentials:
+#### Create a .env file in the backend directory and add the following variables with your own credentials:
 
 MONGO_URI=your_mongodb_atlas_connection_string
 JWT_SECRET=your_super_secret_and_random_key
@@ -67,7 +67,7 @@ npm start
 
 The API will be running on http://localhost:5000.
 
-3. Setup Frontend:
+### 3. Setup Frontend:
 In a new terminal, navigate to the frontend directory:
 
 cd frontend
