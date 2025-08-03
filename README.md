@@ -79,4 +79,24 @@ npm run dev
 
 The application will open on http://localhost:5173 (or another port if 5173 is busy).
 
+# Demo User Logins
 
+### User 1: Priya Sharma (Software Developer)
+Name: Priya Sharma
+Email: priya.dev@example.com
+Password: password123
+
+### User 2: Rohan Verma (Marketing Manager)
+-Name: Rohan Verma
+-Email: rohan.mktg@example.com
+-Password: password123
+
+### User 3: Anjali Singh (UX/UI Designer)
+-Name: Anjali Singh
+-Email: anjali.design@example.com
+-Password: password123 
+
+### User 4: Vikram Rathore (Data Scientist)
+-Name: Vikram Rathore
+-Email: vikram.ds@example.com
+-Password: password123
