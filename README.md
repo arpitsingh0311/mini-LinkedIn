@@ -2,7 +2,7 @@
 A full-stack web application built with the MERN stack (MongoDB, Express, React, Node.js) that functions as a simple professional community platform. Users can create accounts, upload profile pictures, make text and image-based posts, and view a public feed of all community activity.
 
 ## Live Demo
-Live Site URL: Your-Vercel-App-URL.vercel.app (Replace this with your actual Vercel deployment URL)
+Live Site URL: (https://mini-linked-in-rho.vercel.app/)
 
 ## Features
 - User Authentication: Secure user registration and login with JWT (JSON Web Tokens).
