@@ -13,7 +13,9 @@ const Feed = ({ user }) => {
 
   const fetchPosts = useCallback(async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/posts");
+      const res = await axios.get(
+        "https://mini-linkedin-api-760t.onrender.com/api/posts"
+      );
       setPosts(res.data);
     } catch (err) {
       console.error(err);

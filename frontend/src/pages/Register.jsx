@@ -41,9 +41,13 @@ const Register = () => {
     }
 
     try {
-      await axios.post("http://localhost:5000/api/auth/register", data, {
-        headers: { "Content-Type": "multipart/form-data" },
-      });
+      await axios.post(
+        "https://mini-linkedin-api-760t.onrender.com/api/auth/register",
+        data,
+        {
+          headers: { "Content-Type": "multipart/form-data" },
+        }
+      );
       alert("Registration successful! Please log in.");
       navigate("/login");
     } catch (err) {

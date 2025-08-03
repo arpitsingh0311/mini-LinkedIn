@@ -18,7 +18,7 @@ const Login = ({ onLogin }) => {
     setError("");
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://mini-linkedin-api-760t.onrender.com/api/auth/login",
         formData
       );
       localStorage.setItem("token", res.data.token);

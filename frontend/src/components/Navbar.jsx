@@ -13,7 +13,7 @@ const Navbar = ({ user, onLogout }) => {
       if (user?.id) {
         try {
           const res = await axios.get(
-            `http://localhost:5000/api/posts/user/${user.id}`
+            `hhttps://mini-linkedin-api-760t.onrender.com/api/posts/user/${user.id}`
           );
           setCurrentUser(res.data.user);
         } catch (error) {

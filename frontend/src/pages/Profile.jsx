@@ -14,7 +14,7 @@ const Profile = () => {
   const fetchProfile = useCallback(async () => {
     try {
       const res = await axios.get(
-        `http://localhost:5000/api/posts/user/${userId}`
+        `https://mini-linkedin-api-760t.onrender.com/api/posts/user/${userId}`
       );
       setProfile(res.data.user);
       setPosts(res.data.posts);
